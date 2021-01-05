@@ -29,8 +29,12 @@ This repository will house the Python API homework assignment due on January 5, 
 ### output_data
 * cities.csv (original cities data file)
 
-# Pymaceuticals : Assignment Details & Summary
-[![Pymaceuticals](https://github.com/shadeetabasi/matplotlib-assignment/blob/main/Images/Laboratory.jpg)] = UPDATE
+### ReadME Images
+* equatorsign.png
+* heatmap.png
+
+# Assignment Details & Summary
+![WeatherPy](https://github.com/shadeetabasi/python-api-challenge/blob/main/ReadME_Images/equatorsign.png)
 
 **Summary:** 
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
@@ -64,3 +68,4 @@ Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
 ![Pymaceuticalslinearregression](https://github.com/shadeetabasi/matplotlib-assignment/blob/main/Images/pymaceuticals_linearregression.png)
 
+https://github.com/shadeetabasi/python-api-challenge/blob/main/ReadME_Images/heatmap.png
