@@ -77,3 +77,19 @@ Southern Hemisphere - Wind Speed (mph) vs. Latitude
 # Vacation Assignment Details & Summary
 ![VacationPy](https://github.com/shadeetabasi/python-api-challenge/blob/main/ReadME_Images/heatmap.png)
 
+**Summary:** 
+To complete this part of the assignment,you will need to do the following:
+* Create a heat map that displays the humidity for every city from Part I.
+* Narrow down the DataFrame to find your ideal weather condition. For example:
+** A max temperature lower than 80 degrees but higher than 70.
+** Wind speed less than 10 mph.
+** Zero cloudiness.
+* Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
+* Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+**Observations (as seen within Jupyter Notebook):** 
+* See below for a heatmap of the locations within my random selection of cities that fit the above "perfect weather conditions".
+![humidityheatmap](https://github.com/shadeetabasi/python-api-challenge/blob/main/VacationPy/humidity_heatmap.png)
+
+* See below for an overlay of the above map to include markers including the hotel name, city and country for places that not only have perfect weather conditions, but also a hotel within 5,000 meters.
+![hotelmarker](https://github.com/shadeetabasi/python-api-challenge/blob/main/VacationPy/weather_hotel_marker_heatmap_final.png)
