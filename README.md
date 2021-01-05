@@ -24,7 +24,7 @@ This repository will house the Python API homework assignment due on January 5, 
 * VacationPy.ipynb
 * hotel_marker.png
 * humidity_heatmap.png
-* PLEASE NOTE: API KEY FILE ON MY COMPUTER WAS NAMED g_api_keys.py. Not uploading to GitHub for best practices purposes.
+* PLEASE NOTE: API KEY FILE ON MY COMPUTER WAS NAMED g_api_keys.py. The file in this folder is not updated with my g key for security purposes.
 
 ### output_data
 * cities.csv (original cities data file)
