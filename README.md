@@ -33,7 +33,7 @@ This repository will house the Python API homework assignment due on January 5, 
 * equatorsign.png
 * heatmap.png
 
-# Assignment Details & Summary
+# Weather Assignment Details & Summary
 ![WeatherPy](https://github.com/shadeetabasi/python-api-challenge/blob/main/ReadME_Images/equatorsign.png)
 
 **Summary:** 
@@ -59,13 +59,21 @@ Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
 **Observations (as seen within Jupyter Notebook):** 
 
-* Overall, Capomulin appears to be effective in decreasing tumor volume over time. However, Ramicane appears to be associated with the smallest tumor volume/size out of four treatments - Capomulin, Ramicane, Infubinol, and Ceftamin.
-* There appears to be one outlier in the Infubinol dataset - a mouse with a tumor volume below 36.83 - which would require further investigation.
+* There does not appear to be an overt relationship between latitude and cloudiness or latitude and wind speed.
 
-![Pymaceuticalsboxplot](https://github.com/shadeetabasi/matplotlib-assignment/blob/main/Images/pymaceuticals_boxplot.png)
+![latvscloudiness](https://github.com/shadeetabasi/python-api-challenge/blob/main/WeatherPy/latvscloudinessplot.png)
+![latvswindspeed](https://github.com/shadeetabasi/python-api-challenge/blob/main/WeatherPy/latvswindspeedplot.png)
 
-* There appears to be a positive correlation between mouse weight and tumor size - as indicateed in the final linear regression analysis conducted for the Capomulin drug regimen. This may indicate that either treatment was less effective in larger/overweight mice or simply that bigger mice have bigger tumors. We would need to look at change in tumor size over time for mice within different weight buckets to have a definitive answer here.
+* While the northen hemisphere appears to have negative correlation with max temperature (F) - meaning that the farther away from the equater, the colder it gets, the southern hemisphere has a positive correlation with max temperature, meaning the opposite. This indicates that the the closer a city is to the equater, the higher the max temperature would likely be.
 
-![Pymaceuticalslinearregression](https://github.com/shadeetabasi/matplotlib-assignment/blob/main/Images/pymaceuticals_linearregression.png)
+![northernhemispheremaxtemp](https://github.com/shadeetabasi/python-api-challenge/blob/main/WeatherPy/northern_latvsmaxtemp_linearregression.png)
+![southernhemispheremaxtemp](https://github.com/shadeetabasi/python-api-challenge/blob/main/WeatherPy/southern_latvsmaxtemp_linearregression.png)
 
-https://github.com/shadeetabasi/python-api-challenge/blob/main/ReadME_Images/heatmap.png
+* In the northern hemisphere, wind speeds(mph) have a positive correlation with latitude, meaning that the farther away from the equater and higher the latitude, the greater the wind speeds. Conversely, the southern hemisphere shows a negative correlation between latitude and wind speeds, which means that the lower the latitude and farther away from the equater, the higher the wind speeds.
+
+![northernwindspeed](https://github.com/shadeetabasi/python-api-challenge/blob/main/WeatherPy/northern_latvswindspeed_linearregression.png)
+![southernwindspeed](https://github.com/shadeetabasi/python-api-challenge/blob/main/WeatherPy/southern_latvswindspeed_linearregression.png)
+
+# Vacation Assignment Details & Summary
+![VacationPy](https://github.com/shadeetabasi/python-api-challenge/blob/main/ReadME_Images/heatmap.png)
+
